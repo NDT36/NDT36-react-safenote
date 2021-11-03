@@ -1,0 +1,35 @@
+.SideNavItem {
+  width: 100%;
+  height: 4rem;
+  padding: 0.5rem 0;
+  cursor: pointer;
+
+  .Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .Icon,
+    .Tail {
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .Content {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-star;
+    }
+  }
+}
+
+.SideNavItem:hover {
+  background-color: #b6b6b6;
+}

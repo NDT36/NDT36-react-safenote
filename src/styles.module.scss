@@ -1,0 +1,20 @@
+$primary-color: #5f5f5f;
+$warapper-width: 140rem;
+$warapper-height: 102.4rem;
+
+.App {
+  color: $primary-color;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.Wrapper {
+  min-height: $warapper-height;
+  max-width: $warapper-width;
+  background-color: #5f5f5f;
+  display: flex;
+  flex-direction: row;
+}
