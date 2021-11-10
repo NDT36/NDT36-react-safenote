@@ -1,11 +1,8 @@
+import { FC } from "react";
 import styles from "./styles.module.scss";
 
-function Label() {
-  return (
-    <div className={styles.Label}>
-      <div className={styles.Item}></div>
-    </div>
-  );
-}
+const Label: FC = function (props) {
+  return <div className={styles.Label}>{props.children}</div>;
+};
 
 export default Label;

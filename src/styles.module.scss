@@ -9,10 +9,12 @@ $warapper-height: 102.4rem;
   justify-content: center;
   align-items: center;
   font-size: 20px;
+  background: red;
 }
 
 .Wrapper {
-  min-height: $warapper-height;
+  height: 100%;
+  width: 100%;
   max-width: $warapper-width;
   background-color: #5f5f5f;
   display: flex;
